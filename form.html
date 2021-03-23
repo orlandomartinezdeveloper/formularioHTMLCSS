@@ -8,15 +8,17 @@
     <title>Form</title>
 </head>
 <body>
-    <section class="form-register">
+    <section class="form-register" id="form">
         <h4>Formulario de Registro</h4>
         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
         <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
         <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
         <input class="controls" type="password" name="password" id="password" placeholder="Ingrese su Contraseña">
         <p>Estoy de acuerdo con <a href="">Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar">
+        <input class="botons" type="submit" value="Registrar" id="submit">
         <p><a href="#">Ya tengo cuenta?</a></p>
+        <p class="warnings" id="warnings"></p>
     </section>
 </body>
+<script src="codigo.js"></script>
 </html>
